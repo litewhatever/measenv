@@ -2,8 +2,8 @@
 Description=Run pi-dht22 every minute
 
 [Timer]
-OnBootSec=0min
-OnCalendar=*:0/1
+OnBootSec=1min
+OnUnitActiveSec=1min
 
 [Install]
 WantedBy=timers.target
