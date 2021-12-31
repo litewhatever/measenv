@@ -1,0 +1,7 @@
+[Unit]
+Description=Collect temperature and humidity from dht22 sensor
+
+[Service]
+Type=oneshots
+User=pi
+ExecStart=/home/pi/pi-dht22.py

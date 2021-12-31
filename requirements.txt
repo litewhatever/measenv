@@ -1,0 +1,2 @@
+adafruit-circuitpython-dht==3.7.0
+board==1.0
